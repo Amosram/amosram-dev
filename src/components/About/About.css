@@ -1,0 +1,123 @@
+.about h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    width: max-content;
+    font-family: "Orbitron", sans-serif;
+}
+.about h1::after {
+    content: '';
+    width: 70px;
+    height: 2.5px;
+    background: var(--linear-grad);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.about .me {
+    background: var(--linear-grad);
+    padding: 0 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.about .about-content {
+    min-height: 100vh;
+}
+
+.about-left .intro-area {
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-left .about-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 0 15px rgba(128, 128, 128, 0.2);
+}
+
+.about-left p {
+    max-width: 500px;
+    font-size: var(--font-size-medium);
+    color: var(--paragraph-color);
+    letter-spacing: .5px;
+    margin-bottom: 2rem;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.about-left h2 {
+    font-weight: 400;
+}
+
+.about-left .about-btn  {
+    font-size: var(--button-font-size);
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-right h2 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: "Orbitron", sans-serif;
+}
+
+.about-right .skill-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background-color:  rgba(43, 43, 60, 0.3);
+    padding:2rem 4rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+
+}
+
+.about-right .skill-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 8px 0;
+    background: var(--bg-color2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: silver;
+    letter-spacing: .5px;
+    margin: .2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-right .skill-icons:hover {
+    cursor: default;
+    background: var(--linear-grad2);
+    box-shadow: 0 0 5px rgba(43, 43, 60, 0.8);
+    transition: .3s;
+}
+
+.about-right .skill-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.about-right .skill-icons p {
+    letter-spacing: .5px;
+}

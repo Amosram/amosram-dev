@@ -1,0 +1,146 @@
+.navbar-container {
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding: .5rem 2rem;
+    z-index: 999;
+   
+}
+
+.header {
+    background: var(--bg-color2);
+    border-radius: 10px;
+    padding: 1.2rem 4%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.menu-icon {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2px;
+    color: #fff;
+    padding: 2px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.header .logo {
+    font-size: 1.3rem;
+    position: relative;
+    font-weight: 200;
+    font-family: "Orbitron", sans-serif;
+    text-transform: lowercase;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.header .logo .dot {
+    color: var(--span-text);
+    position: absolute;
+    bottom: -2.2px;
+    right: -1.4rem;
+    font-size: 2.4rem;
+}
+
+ 
+.header .navbar .list {
+    gap: 1.2rem;
+    font-size: var(--font-size-small);
+}
+
+.header .navbar .list li:hover {
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.header .navbar .list li {
+    text-transform: uppercase;
+}
+
+.header .contact-btn {
+    gap: 5px;
+    font-size: var(--font-size-medium);
+}
+
+.header .contact-btn:hover {
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.header .contact-btn .envelope {
+    font-size: var(--font-size-medium);
+}
+
+.header .icons-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header .icons-list li a {
+    color: var(--font-size-medium);
+}
+
+.header .icons-list li a .s-icon {
+    font-size: 1.3rem;
+}
+
+.header .icons-list li a .s-icon:hover {
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+/* MEDIIA QUERIES */
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .header {
+        background: var(--bg-color2);
+    }
+
+    .header .icons-list {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        height: 50vh;
+        right: 0;
+        background: var(--bg-color2);
+        width: 50%;
+        transform: translateX(1000px);
+        opacity: 0;
+        margin-top: .5rem;
+        backdrop-filter: blur(0px);
+        border-radius: 0 0 15px 15px;
+        padding: 2rem;
+        transition: 0.5s;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .header .navbar .list {
+        flex-direction: column;
+    }
+
+    .navbar.active {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar-container {
+        padding: .5rem 1rem;
+    }
+}

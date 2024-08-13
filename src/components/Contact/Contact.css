@@ -1,0 +1,160 @@
+.contact-container {
+    min-height: 100vh;
+}
+
+.contact h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.contact .me {
+    background: var(--linear-grad);
+    padding: 0 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.first-sub-contact-left .first-p {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.first-sub-contact-left .sec-p {
+    color: var(--paragraph-color);
+    font-size: 1.2em;
+    max-width: 470px;
+    margin-bottom: .5rem;
+}
+
+.first-sub-contact-left .third-p {
+    color: var(--paragraph-color);
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+
+.second-sub-contact-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.contact-social-items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-social-items .c-icon {
+    font-size: 2.5rem;
+    background: var(--bg-color2);
+    padding: 6px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.contact-social-items p {
+    font-size: 1.3rem;
+    color: var(--paragraph-color);
+}
+
+.contact-icons-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.contact-icons-list a {
+    color: var(--paragraph-color);
+}
+
+.contact-icons-list .s-icon {
+    font-size: 2.7rem;
+    background: var(--bg-color2);
+    padding: 6px;
+    text-align: center;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.contact-icons-list .s-icon:hover {
+    background: var(--linear-grad2);
+    color: #000;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.contact-right form {
+    max-width: 800px;
+    width: 100%;
+    padding: 25px 25px 30px;
+    background: rgba(43, 43, 60, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-right .input-box {
+    margin-top: 10px;
+}
+
+.contact-right .input-box label {
+    font-size: 1.2rem;
+    letter-spacing: .5s;
+}
+
+.contact-right .input-box input, textarea {
+    width: 100%;
+    padding: .4rem;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(43, 43, 60, 0.5);
+    margin-top: 4px;
+    border-radius: 5px;
+    transition: .4s;
+    color: rgba(192, 192, 192, 0.7);
+    text-transform: capitalize;
+}
+
+.contact-right .input-box input::placeholder {
+    color: rgba(192, 192, 192, 0.2);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.contact-right .input-box textarea::placeholder {
+    color: rgba(192, 192, 192, 0.2);
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: .6px;
+}
+
+.contact-right .input-box textarea {
+    resize: none;
+}
+
+.contact-right .input-box input:focus {
+    box-shadow: 0 0 3px rgba(43, 43, 60, 0.9);
+}
+
+.contact-right .input-box textarea:focus {
+    box-shadow: 0 0 3px rgba(43, 43, 60, 0.9);
+}
+
+.contact-right .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.contact-right .button .icon-plane {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+}
+
+.footer hr {
+    max-width: 950px;
+    margin: auto;
+    border: 0.04px solid rgba(192, 192, 192, 0.2);
+    border-radius: 15px;
+}
+
+.footer p {
+    padding: 2rem;
+    color: var(--paragraph-color);
+    font-size: 1.1rem;
+    letter-spacing: .6px;
+}
