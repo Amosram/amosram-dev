@@ -18,7 +18,7 @@ const About = () => {
              delay: 0.3
            }}
       >About <span className='me'>ME</span></motion.h1>
-      <div className='about-content flexBox'>
+      <div className='about-content flexBox3'>
         <div className='about-left'>
           <motion.div className='intro-area flexBox2'
                 initial={{opacity:0}}

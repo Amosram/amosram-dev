@@ -55,7 +55,7 @@ const Contact = () => {
         >Let's Get In Touch!</motion.p>
       </div>
 
-      <div className='contact-container flexBox'>
+      <div className='contact-container flexBox3'>
         <motion.div className='contact-left'
              initial={{opacity:0, y:35}}
              whileInView={{opacity:1, y:0}}

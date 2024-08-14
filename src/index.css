@@ -19,17 +19,18 @@
  --span-text: #b38b00;
  --main-text-color: rgb(192, 192, 192);
  --padding-medium: .3rem 1rem;
- --font-size-medium: .8rem;
+ --font-size-medium: 1.4rem;
  --font-size-small: 1.2rem;
- --h1-global: 1.8rem;
+ --h1-global: 2.5rem;
  --goldish: #b38b00;
  --paragraph-color:  rgba(192, 192, 192, 0.7);
- --button-font-size: .8rem;
+ --button-font-size: 1.3rem;
  --heading-font: "Orbitron", sans-serif;
 }
 
 
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -54,7 +55,7 @@ body {
 section {
   max-width: 100%;
   min-height: 100vh;
-  padding: 1rem 4%;
+  padding: 1rem 7%;
   overflow-x: hidden;
 }
 
@@ -69,6 +70,13 @@ section {
 .flexBox2 {
   display: flex;
   align-items: center;
+}
+
+.flexBox3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .main-heading {
@@ -109,4 +117,11 @@ section {
   bottom: 0;
   left: 0;
   border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  html {
+      font-size: 65.5%;
+  }
 }
