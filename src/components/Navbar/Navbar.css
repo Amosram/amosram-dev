@@ -2,7 +2,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    padding: .5rem 2rem;
+    padding: .3rem 2rem;
     z-index: 999;
    
 }
@@ -10,7 +10,7 @@
 .header {
     background: var(--bg-color2);
     border-radius: 10px;
-    padding: 1.2rem 4%;
+    padding: .4rem 4%;
     width: 100%;
     backdrop-filter: blur(10px);
 }
@@ -30,7 +30,7 @@
 }
 
 .header .logo {
-    font-size: 1.3rem;
+    font-size: .8rem;
     position: relative;
     font-weight: 200;
     font-family: "Orbitron", sans-serif;
@@ -60,6 +60,7 @@
 
 .header .navbar .list li {
     text-transform: uppercase;
+    font-size: .7rem;
 }
 
 .header .contact-btn {
@@ -88,7 +89,7 @@
 }
 
 .header .icons-list li a .s-icon {
-    font-size: 1.3rem;
+    font-size: .8rem;
 }
 
 .header .icons-list li a .s-icon:hover {

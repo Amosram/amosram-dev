@@ -19,18 +19,17 @@
  --span-text: #b38b00;
  --main-text-color: rgb(192, 192, 192);
  --padding-medium: .3rem 1rem;
- --font-size-medium: 1.4rem;
+ --font-size-medium: .8rem;
  --font-size-small: 1.2rem;
- --h1-global: 2.5rem;
+ --h1-global: 1.8rem;
  --goldish: #b38b00;
  --paragraph-color:  rgba(192, 192, 192, 0.7);
- --button-font-size: 1.3rem;
+ --button-font-size: .8rem;
  --heading-font: "Orbitron", sans-serif;
 }
 
 
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -110,11 +109,4 @@ section {
   bottom: 0;
   left: 0;
   border-radius: 10px;
-}
-
-
-@media (max-width: 768px) {
-  html {
-      font-size: 65.5%;
-  }
 }

@@ -106,7 +106,6 @@ const Hero = () => {
         >I design and code beautifully simple things, and I love what I do.</motion.p>
 
         <div className='btns'
-       
         >
           <motion.button className='btn-to-about button' type='button'
                 variants={variants}
@@ -123,14 +122,6 @@ const Hero = () => {
             <Link to='contact'>Contact</Link>
           </motion.button>
         </div>
-        <motion.img src={AIimg} alt=""
-          initial={{opacity:0}}
-          animate={{opacity:0.3}}
-          transition={{
-            duration:1,
-            delay: 4
-          }}
-        />
       </div>
     </section>
   )
