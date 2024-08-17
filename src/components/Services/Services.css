@@ -164,7 +164,14 @@
         flex-direction: column;
     }
 
-    
+    .service-left p {
+        font-size: 1.2rem;
+    }
+
+    .service-items h3 {
+        font-size: 1.7rem;
+    }
+
     .service-items {
         padding: 2.3rem 1rem;
         margin: 0 2rem;
