@@ -34,7 +34,7 @@ const About = () => {
                 whileInView={{opacity:1, y:0}}
                 transition={{duration:0.8, delay: 0.3}}
           >
-            Welcome to my portfolio! I’m Amos Rama, a passionate web developer with a keen eye for design and a knack for creating responsive and user-friendly websites. With a background in full-stack development, I have honed my skills in both front-end and back-end development, ensuring that every project I undertake is both functional and visually appealing. My journey into web development began when i became a programming enthusiast after having developed a keen interest in technology at an early age. Over the past three years, I’ve worked on various projects ranging from simple landing pages to complex web applications. Each project has taught me something new, allowing me to continuously grow and improve my skills.
+            Welcome to my portfolio! I’m Amos Rama, a passionate web developer with a keen eye for design and a knack for creating responsive and user-friendly websites. With a background in web development, I have honed my skills in both front-end and back-end development, ensuring that every project I undertake is both functional and visually appealing. My journey into web development began when i became a programming enthusiast after having developed a keen interest in technology at an early age. Over the past three years, I’ve worked on various projects ranging from simple landing pages to complex web applications. Each project has taught me something new, allowing me to continuously grow and improve my skills.
           </motion.p>
 
           <motion.button className='button' type='button'
