@@ -11,19 +11,21 @@
 
 .projects-top p  {
     font-size: 1.5rem;
-    margin-right: 8rem;
     text-transform: capitalize;
 }
 
 .projects-container {
     min-height: 100vh;
     margin-top: 2rem;
+    width: 100%;
 }
 
 .projects-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 2rem;
+    width: 100%;
 } 
 
 .projects .quote {
@@ -44,7 +46,7 @@
     filter: blur(0);
     transition: .7s;
     cursor: pointer;
-    background: var(--bg-color2);
+    color: #fff;
 }
 
 .projects .quote span {
@@ -139,4 +141,43 @@
 .project-sub-content .sub-details {
     display: flex;
     gap: 1rem;
+}
+
+/* PROJECTS SECTION BREAKPOINTS */
+@media (max-width: 835px) {
+    .projects-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    } 
+
+    .projects-items img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects .quote {
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+
+    .projects-content {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects .quote {
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+
+    .projects-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-top p {
+        font-size: 1.2rem;
+    }
 }

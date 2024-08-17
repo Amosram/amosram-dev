@@ -26,7 +26,7 @@ const Services = () => {
         >What i can do for you</motion.p>
       </div>
   
-      <div className='service-content flexBox'>
+      <div className='service-content'>
         <div className='service-left'>
           <motion.p
               initial={{opacity:0, y:35}}
@@ -35,7 +35,7 @@ const Services = () => {
                 duration: 0.8,
                 delay: 0.3
               }}
-          >I deliver comprehensive development solutions, including frontend and backend development, cross-platform mobile app creation, and database modeling and development. </motion.p>
+          >I deliver comprehensive development solutions, including frontend and backend development, database modeling and development. Find more below. </motion.p>
           <motion.img src={serviceImg} alt=""
               initial={{opacity:0, y:35}}
               whileInView={{opacity:1, y:0}}
@@ -57,7 +57,14 @@ const Services = () => {
                 delay: 0.3
               }}
               key={servicesData.id}>
-              <img src={servicesData.img} alt=""/>
+              <motion.img
+                   initial={{opacity:0}}
+                   whileInView={{opacity:1}}
+                   transition={{
+                     duration: 0.6,
+                     delay: 1
+                   }}
+              src={servicesData.img} alt=""/>
               <h3>{servicesData.title}</h3>
               <p>{servicesData.description}</p>
             </motion.div>

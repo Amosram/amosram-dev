@@ -11,15 +11,17 @@
 :root {
  /* --bg-color: linear-gradient(45deg,#000 , #3a2b3c);
  --bg-color2: linear-gradient(180deg,#000 , #3a2b3c, #000); */
- --bg-color: linear-gradient(45deg,#000 , #2b2b3c);
- --bg-color2: linear-gradient(180deg,#000 , #2b2b3c, #000);
- --linear-grad: linear-gradient(to right,#000 , #97833e, #000);
- --linear-grad2: linear-gradient(180deg,#000, #C0C0C0, #000 );
- --linear-grad3: linear-gradient(180deg,#000 , #97833e, #000);
+ --bg-color: linear-gradient(200deg, #2b2b3c, #5d553a,#2b2b3c);
+ --bg-color2: linear-gradient(180deg,#2b2b3c, #7b6f44,#2b2b3c);
+ --linear-grad: linear-gradient(to right,#2b2b3c, #7b6f44, #2b2b3c);
+ --linear-grad2: linear-gradient(180deg,#2b2b3c, #7b6f44, #2b2b3c);
+ /* --linear-grad2: linear-gradient(180deg,#000, #C0C0C0, #000 ); */
+ --linear-grad3: linear-gradient(180deg,#fff, #97833e);
+ --linear-grad4: linear-gradient(to right, #7b6f44, #2b2b3c);
  --span-text: #b38b00;
  --main-text-color: rgb(192, 192, 192);
  --padding-medium: .3rem 1rem;
- --font-size-medium: 1.4rem;
+ --font-size-medium: 1.5rem;
  --font-size-small: 1.2rem;
  --h1-global: 2.5rem;
  --goldish: #b38b00;
@@ -49,7 +51,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
   background:var(--bg-color);
-  color: #C0C0C0;
+  color: #fff;
 }
 
 section {
@@ -57,6 +59,7 @@ section {
   min-height: 100vh;
   padding: 1rem 7%;
   overflow-x: hidden;
+  margin: 0 1rem;
 }
 
 /* REUSABLE CLASSES */
@@ -76,16 +79,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 10rem;
 }
 
 .main-heading {
   font-size: var(--h1-global);
+  margin-top: .3rem;
 }
 
 .button {
-  background: var(--bg-color2);
-  color:var(--main-text-color);
+  background: var(--linear-grad2);
+  color:#fff;
   border: none;
   padding: 10px 16px;
   border-radius: 15px;
@@ -96,7 +100,7 @@ section {
 }
 
 .button:hover {
-  color: #2b2b3c;
+  color: var(--paragraph-color);
   transition: .4s;
   cursor: pointer;
   background: var(--linear-grad2);
@@ -123,5 +127,19 @@ section {
 @media (max-width: 768px) {
   html {
       font-size: 65.5%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+      font-size: 65.8%;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    margin: 3rem 0;
+  }
+  .main-heading {
+    font-size: 1.6rem;
   }
 }

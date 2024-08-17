@@ -44,10 +44,10 @@
 }
 
 .about-left p {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-medium);
     color: var(--paragraph-color);
     letter-spacing: .5px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 200;
     line-height: 1.5;
 }
@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    background-color:  rgba(43, 43, 60, 0.3);
+    background-color:  var(--linear-grad);
     padding:2rem 4rem;
     border-radius: 15px;
     backdrop-filter: blur(10px);
@@ -119,4 +119,78 @@
 
 .about-right .skill-icons p {
     letter-spacing: .5px;
+}
+/* ABOU SECTION MEDIA QUERRIES */
+@media (max-width: 835px) {
+    .about-right {
+        width: 100%;
+    }
+
+    .about-right .skill-container {
+        width: 100%; 
+        justify-content: center;   
+    }
+      
+    .about .about-content {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 2.5rem;
+        width: 100%;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-right h2 {
+        text-align: start;
+    }
+
+    .about-right .skill-container {
+        width: 100%; 
+        justify-content: center;   
+    }
+
+}
+
+@media (max-width: 500px) {
+    .about-left .about-img {
+        width: 60px;
+        height: 60px;
+    }
+
+   .about-left p {
+        font-size: 1.3rem;
+    } 
+
+    .about-right h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-right .skill-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .about-right .skill-icons p {
+        font-size: .9rem;
+    }
+
+    .about-right .skill-icons {
+        padding: 8px 8px;
+    }
+
+    .about-right .skill-icons {
+        border-radius: 10px;
+    }
+
+    .about-left p {
+        font-size: 1.1rem;
+    }
 }

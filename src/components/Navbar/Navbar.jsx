@@ -8,6 +8,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import { CgMenuRightAlt } from "react-icons/cg";
+import { MdOutlineClose } from "react-icons/md";
+
 
 
 
@@ -16,18 +18,25 @@ const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const handleClick = () => {
-    setMenuOpen(!menuOpen)
+  const handleClick = (e) => {
+    e.preventDefault();
+    setMenuOpen(!menuOpen);
   }
 
   return (
     <div className='navbar-container'>
       <header className='header flexBox'>
         <div className='logo-container'>
-          <h1 className='logo'>.AMOSRAM.
-        </h1>
+          <a href="">
+            <h1 className='logo'>.AMOSRAM.</h1>
+          </a>
         </div>
-        <CgMenuRightAlt className='menu-icon' onClick={handleClick}/>
+        <div className={`bars `}>
+          
+          <CgMenuRightAlt className='menu-icon 'onClick={handleClick}/>
+          <MdOutlineClose className='menu-close-icon'  onClick={handleClick}/>
+        </div>
+      
         <nav className={`navbar ${menuOpen && 'active'}`}>
           <ul className='flexBox list'>
             <li>
@@ -53,16 +62,16 @@ const Navbar = () => {
 
         <ul className='icons-list'>
           <li>
-            <a href="#"><FaFacebook className='s-icon'/></a>
+            <a href="https://www.facebook.com/profile.php?id=61559019293315" target='_blank'><FaFacebook className='s-icon'/></a>
           </li>
           <li>
-            <a href="#"><FaLinkedin className='s-icon'/></a>
+            <a href="https://www.linkedin.com/in/amosram-developer1/" target='_blank'><FaLinkedin className='s-icon'/></a>
           </li>
           <li>
-            <a href="#"><FaInstagram className='s-icon'/></a>
+            <a href="https://www.instagram.com/a.m.o.s.r.a.m" target='_blank'><FaInstagram className='s-icon'/></a>
           </li>
           <li>
-            <a href="#"><FaGithub className='s-icon'/></a>
+            <a href="https://github.com/Amosram" target='_blank'><FaGithub className='s-icon'/></a>
           </li>
         </ul>
       </header>

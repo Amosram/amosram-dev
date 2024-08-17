@@ -67,10 +67,10 @@ const Projects = () => {
                     <a href={projectDatas.link} target='_blank'>Demo  <FiExternalLink/></a>
                   </button>
                   <button type='button'>
-                    <Link  to="">
-                       Details
+                    <a  href={projectDatas.code} target='_blank'>
+                       GitHub
                       <FaExpand className='expand-icon' />
-                    </Link >
+                    </a >
                     {/* <div className='details'>
                       <IoClose className='details-close'/>
                       <div className='sub-details'>

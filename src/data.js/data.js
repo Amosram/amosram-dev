@@ -121,18 +121,21 @@ export const projectData = [
         id: 1,
         img: projectImg1,
         link:'https://amosrama.netlify.app/#portfolio',
+        code: 'https://github.com/Amosram/amosrama',
         description: "My previous portfolio"
     },
     {
         id: 3,
         img: projectImg3, 
         link: 'https://amosram.github.io/fayaz-site/',
+        code: 'https://github.com/Amosram/fayaz-site',
         description:"Fayaz bakery site"
     },
     {
         id: 2,
         img: projectImg2, 
         link: 'https://thinksmoothie.netlify.app/',
+        code:"https://github.com/Amosram/thinksmoothie",
         description: "Thinksmoothie drinks site"
     }
 ]

@@ -83,27 +83,19 @@ const Hero = () => {
              variants={variants}
              initial='hidden'
              animate='visible'
-          >I AM  
-            <span className='letter brk-1'>A</span>
-            <span className='letter'>M</span>
-            <span className='letter'>O</span>
-            <span className='letter'>S</span>
-            <span className='letter brk-2'>R</span>
-            <span className='letter'>A</span>
-            <span className='letter'>M</span>
-            <span className='letter'>A</span>
+          >I AM  <span> AMOS RAMA</span>
           </motion.h1>
         </div>
         <motion.h3 
            variants={variants}
            initial='hidden2'
            animate='visible2'
-        >And I am a Full Stack Developer</motion.h3>
+        >And I am a <span>Full Stack Developer</span></motion.h3>
         <motion.p
            variants={variants}
            initial='hidden3'
            animate='visible3'
-        >I design and code beautifully simple things, and I love what I do.</motion.p>
+        >I craft innovative and responsive websites and turn ideas into interactive digital experiences</motion.p>
 
         <div className='btns'
         >

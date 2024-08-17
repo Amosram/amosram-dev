@@ -52,10 +52,10 @@ const Contact = () => {
                duration: 0.8,
                delay: 0.3
              }}
-        >Let's Get In Touch!</motion.p>
+        >Let's Connect!</motion.p>
       </div>
 
-      <div className='contact-container flexBox3'>
+      <div className='contact-container'>
         <motion.div className='contact-left'
              initial={{opacity:0, y:35}}
              whileInView={{opacity:1, y:0}}
@@ -67,7 +67,7 @@ const Contact = () => {
           <div className='first-sub-contact-left'>
             <p className='first-p'>Wanna talk? </p>
             <p className='sec-p'>Please, feel free to reach me out, I am always available for opportunities and for project contribution.</p>
-            <p className='third-p'>You can use any of the contact methods here to talk to me.Welcome all(KARIBU!)</p>
+            <p className='third-p'>You can use any of the contact methods here to reach me.Welcome all[KARIBU!]</p>
           </div>
           <div className='second-sub-contact-left'>
             <div className='contact-social-items'>
@@ -86,13 +86,13 @@ const Contact = () => {
               <div className='quick-links'>
                   <ul className='contact-icons-list'>
                     <li>
-                      <a href="#"><FaLinkedin className='s-icon'/></a>
+                      <a href="https://www.linkedin.com/in/amosram-developer1/"><FaLinkedin className='s-icon'/></a>
                     </li>
                     <li>
-                      <a href="#"><FaInstagram className='s-icon'/></a>
+                      <a href="https://www.instagram.com/a.m.o.s.r.a.m"><FaInstagram className='s-icon'/></a>
                     </li>
                     <li>
-                      <a href="#"><FaGithub className='s-icon'/></a>
+                      <a href="https://github.com/Amosram"><FaGithub className='s-icon'/></a>
                     </li>
                 </ul>
               </div>

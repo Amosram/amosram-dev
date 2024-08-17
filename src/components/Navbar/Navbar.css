@@ -8,11 +8,12 @@
 }
 
 .header {
-    background: var(--bg-color2);
+    background: var(--linear-grad);
     border-radius: 10px;
     padding: 1.2rem 4%;
     width: 100%;
     backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .menu-icon {
@@ -25,8 +26,22 @@
     display: none;
 }
 
+.menu-close-icon {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2px;
+    color: #fff;
+    padding: 2px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
 .menu-icon:hover {
     cursor: pointer;
+} 
+
+.header .logo-container a {
+    color: #fff;
 }
 
 .header .logo {
@@ -53,13 +68,14 @@
 }
 
 .header .navbar .list li:hover {
-    color: white;
+    color: var(--main-text-color);
     transition: .4s;
     cursor: pointer;
 }
 
 .header .navbar .list li {
     text-transform: uppercase;
+    letter-spacing: 0.4px;
 }
 
 .header .contact-btn {
@@ -80,7 +96,7 @@
 .header .icons-list {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.1rem;
 }
 
 .header .icons-list li a {
@@ -88,24 +104,24 @@
 }
 
 .header .icons-list li a .s-icon {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .header .icons-list li a .s-icon:hover {
-    color: white;
+    color: var(--main-text-color);
     transition: .4s;
     cursor: pointer;
 }
 
 /* MEDIIA QUERIES */
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
     .menu-icon {
         display: block;
     }
 
     .header {
-        background: var(--bg-color2);
+        background: var(--linear-grad);
     }
 
     .header .icons-list {
@@ -116,7 +132,7 @@
         position: absolute;
         top: 100%;
         right: 0;
-        background: var(--bg-color2);
+        background: var(--linear-grad4);
         width: 50%;
         transform: translateX(1000px);
         opacity: 0;
@@ -124,8 +140,8 @@
         backdrop-filter: blur(0px);
         border-radius: 0 0 15px 15px;
         padding: 2rem;
-        transition: 0.5s;
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        transition: 0.8s;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
 
     .header .navbar .list {
@@ -135,6 +151,17 @@
     .navbar.active {
         transform: translateX(0px);
         opacity: 1;
+    }
+
+    .header .navbar .list li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header .navbar .list li a {
+        width: 100%;
+        padding: .6rem .4rem;
+        font-size: 1.5rem;
     }
 }
 
