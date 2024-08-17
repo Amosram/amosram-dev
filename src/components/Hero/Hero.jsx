@@ -73,18 +73,23 @@ const Hero = () => {
     <section className='hero flexBox' id='/'>
       <div className='hero-left'>
         <div className='my-name'>
-          <motion.h1 className='hello'
-            variants={variants}
-            initial='hidden'
-            animate='visible'
-          >HELLO</motion.h1>
-          <IoEarth className='earth'/>
-          <motion.h1 className='h2'
-             variants={variants}
-             initial='hidden'
-             animate='visible'
-          >I AM  <span> AMOS RAMA</span>
-          </motion.h1>
+          <div className='title-top'>
+            <motion.h1 className='hello'
+              variants={variants}
+              initial='hidden'
+              animate='visible'
+            >HELLO</motion.h1>
+            <IoEarth className='earth'/>
+          </div>
+       
+          <div className='title-middle'>
+            <motion.h1 className='h2'
+              variants={variants}
+              initial='hidden'
+              animate='visible'
+            >I AM  <span> AMOS RAMA</span>
+            </motion.h1>
+          </div>
         </div>
         <motion.h3 
            variants={variants}

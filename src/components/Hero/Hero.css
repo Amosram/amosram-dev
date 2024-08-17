@@ -7,6 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1.5rem;
+}
+
+.hero-left .my-name .title-top {
+    display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -163,7 +169,7 @@
 @media (max-width: 589px) {
     .hero h1 {
         font-size: 2.5rem;
-        text-align: center;
+        text-align: center; 
     }
 
     .hero h3 {
@@ -182,13 +188,22 @@
     }
 
     .hero-left .earth {
-        width: 20px;
-        height:20px;
+        width: 27px;
+        height:27px;
+        margin-bottom: 3px;
     }
 
     .header {
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
+    }
+
+    .hero-left .my-name {
+        flex-direction: column;
+    }
+
+    .hero-left .my-name h1 {
+        font-size: 3rem;
     }
 
 }
