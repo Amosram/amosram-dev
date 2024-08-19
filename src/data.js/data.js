@@ -105,7 +105,7 @@ export const serviceData = [
     {
         id: 3,
         img:serviceImg3,
-        title: "Database Management",
+        title: "Database Development",
         description: "I design and nanage databases using SQL or NoSQL technologies, ensuring data is stored, retrieved, and manipulated efficiently."
     },
     {
