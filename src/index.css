@@ -18,6 +18,7 @@
  /* --linear-grad2: linear-gradient(180deg,#000, #C0C0C0, #000 ); */
  --linear-grad3: linear-gradient(180deg,#fff, #97833e);
  --linear-grad4: linear-gradient(to right, #7b6f44, #2b2b3c);
+ --linear-grad5: linear-gradient(to right, #7b6f44, #5a5543);
  --span-text: #b38b00;
  --main-text-color: rgb(192, 192, 192);
  --padding-medium: .3rem 1rem;
@@ -46,7 +47,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #2b2b3c;
+  background: var(--bg-color);
 }
 
 body {

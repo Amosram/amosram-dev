@@ -3,7 +3,7 @@ import skillImg1 from '../assets/images/html-icon.svg'
 import skillImg2 from '../assets/images/css-icon.svg'
 import skillImg3 from '../assets/images/js.svg'
 import skillImg4 from '../assets/images/react-js-icon.svg'
-import skillImg5 from '../assets/images/bootstrap-5-logo-icon.svg'
+import skillImg5 from '../assets/images/icons8-tailwind-css.svg'
 import skillImg6 from '../assets/images/node-js-icon.svg'
 import skillImg7 from '../assets/images/express-js-icon.svg'
 import skillImg8 from '../assets/images/mongodb-icon.svg'
@@ -50,7 +50,7 @@ export const skillData = [
     {
         id:5,
         img: skillImg5,
-        title: "Bootstrap"
+        title: "Tailwind CSS"
     },
     {
         id:6,
@@ -122,7 +122,8 @@ export const projectData = [
         img: projectImg1,
         link:'https://amosrama.netlify.app/#portfolio',
         code: 'https://github.com/Amosram/amosrama',
-        description: "My previous portfolio"
+        description: "My previous portfolio",
+        tools: "HTML CSS JavaScript"
     },
     {
         id: 3,

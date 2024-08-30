@@ -4,10 +4,10 @@ import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 import { BiSolidQuoteSingleRight } from "react-icons/bi";
 import { projectData } from '../../data.js/data';
 import { FiExternalLink } from "react-icons/fi";
-import { FaExpand } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
 import { IoClose } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 
 
 
@@ -69,16 +69,8 @@ const Projects = () => {
                   <button type='button'>
                     <a  href={projectDatas.code} target='_blank'>
                        GitHub
-                      <FaExpand className='expand-icon' />
+                      <FaGithub className='expand-icon' />
                     </a >
-                    {/* <div className='details'>
-                      <IoClose className='details-close'/>
-                      <div className='sub-details'>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JacaScript</p>
-                      </div>
-                    </div> */}
                   </button>
                 </div>
               </div>

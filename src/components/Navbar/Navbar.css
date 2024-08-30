@@ -120,6 +120,14 @@
         display: block;
     }
 
+    .menu-icon.hidden {
+        display: none;
+    }
+
+    .menu-close-icon.show {
+        display: block;
+    }
+
     .header {
         background: var(--linear-grad);
     }

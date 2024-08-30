@@ -6,8 +6,6 @@ import Services from './components/Services/Services'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import AllProjects from './pages/Project/AllProjects'
 
 
 function App() {  
@@ -19,12 +17,7 @@ function App() {
       <Hero/>
       <About/>
       <Services />
-      <BrowserRouter>
-        <Projects/>
-        <Routes>
-          <Route path="all-projects"/>
-        </Routes>
-      </BrowserRouter>
+      <Projects/>
       <Contact />
       <Footer/>
     </div>
