@@ -23,7 +23,7 @@ const Services = () => {
               duration: 0.8,
               delay: 0.3
             }}
-        >What i can do for you</motion.p>
+        >What i can do</motion.p>
       </div>
   
       <div className='service-content'>

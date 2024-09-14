@@ -116,7 +116,7 @@ const Hero = () => {
                 initial='hidden5'
                 animate='visible5'
           >
-            <Link to='contact'>Contact</Link>
+            <Link to='projects'>See Work</Link>
           </motion.button>
         </div>
       </div>

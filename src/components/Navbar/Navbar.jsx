@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { FaEnvelope } from "react-icons/fa";
-import { RxDotFilled } from "react-icons/rx";
 import { FaFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -55,7 +53,7 @@ const Navbar = () => {
               <Link to="blog">blog</Link>
             </li> */}
             <li>
-              <Link to="contact">contact</Link>
+              <Link onClick={handleClick} to="contact">contact</Link>
             </li>
           </ul>
         </nav>
