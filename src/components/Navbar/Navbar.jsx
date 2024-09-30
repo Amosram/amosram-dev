@@ -29,7 +29,7 @@ const Navbar = () => {
             <h1 className='logo'>.AMOSRAM.</h1>
           </a>
         </div>
-        <div className={`bars `}>
+        <div className={`bars`}>
           
           <CgMenuRightAlt className='menu-icon 'onClick={handleClick}/>
           <MdOutlineClose className='menu-close-icon'  onClick={handleClick}/>

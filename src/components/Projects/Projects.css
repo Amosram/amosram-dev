@@ -89,9 +89,15 @@
 }
 
 .project-sub-content p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     letter-spacing: .5px;
     margin-bottom: .8rem;
+    text-align: center;
+}
+
+.project-sub-content .tools {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .project-sub-content button {

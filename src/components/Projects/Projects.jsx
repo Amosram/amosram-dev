@@ -62,6 +62,7 @@ const Projects = () => {
 
               <div className='project-sub-content'>
                 <p>{projectDatas.description}</p>
+                <p className='tools'>{projectDatas.tools}</p>
                 <div className='project-btns'>
                   <button type='button'>
                     <a href={projectDatas.link} target='_blank'>Demo  <FiExternalLink/></a>

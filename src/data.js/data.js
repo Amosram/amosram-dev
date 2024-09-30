@@ -16,9 +16,11 @@ import serviceImg1 from '../../src/assets/images/front-end.png'
 import serviceImg2 from '../../src/assets/images/backend.png'
 import serviceImg3 from '../../src/assets/images/database-management.png'
 import serviceImg4 from '../../src/assets/images/web-maintenance.png'
+
 import projectImg1 from '../../src/assets/images/project1.png'
 import projectImg2 from '../../src/assets/images/project2.png'
 import projectImg3 from '../../src/assets/images/project3.png'
+import projectImg4 from '../../src/assets/images/project4.png'
 
 
 export const imageL = [
@@ -130,14 +132,24 @@ export const projectData = [
         img: projectImg3, 
         link: 'https://amosram.github.io/fayaz-site/',
         code: 'https://github.com/Amosram/fayaz-site',
-        description:"Fayaz bakery site"
+        description:"Fayaz bakery site",
+        tools: "HTML CSS JavaScript"
     },
     {
         id: 2,
         img: projectImg2, 
         link: 'https://thinksmoothie.netlify.app/',
         code:"https://github.com/Amosram/thinksmoothie",
-        description: "Thinksmoothie drinks site"
+        description: "Thinksmoothie drinks site",
+        tools: "HTML CSS JavaScript"
+    },
+    {
+        id: 4,
+        img: projectImg4, 
+        link: 'https://tsaire.vercel.app/',
+        code:"https://github.com/Amosram/lajest",
+        tools:"MongoDB, ExpressJS, ReactJS, NodeJS,Tailwind CSS",
+        description: "Updated version of thinksmoothie drinks site"
     }
 ]
 
