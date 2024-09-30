@@ -21,6 +21,7 @@ import projectImg1 from '../../src/assets/images/project1.png'
 import projectImg2 from '../../src/assets/images/project2.png'
 import projectImg3 from '../../src/assets/images/project3.png'
 import projectImg4 from '../../src/assets/images/project4.png'
+import projectImg5 from '../../src/assets/images/project5.png'
 
 
 export const imageL = [
@@ -147,10 +148,18 @@ export const projectData = [
         id: 4,
         img: projectImg4, 
         link: 'https://tsaire.vercel.app/',
-        code:"https://github.com/Amosram/lajest",
-        tools:"MongoDB, ExpressJS, ReactJS, NodeJS,Tailwind CSS",
+        code:"https://github.com/Amosram/tsaire",
+        tools:"MongoDB ExpressJS ReactJS NodeJS Tailwind CSS",
         description: "Updated version of thinksmoothie drinks site"
-    }
+    },
+    {
+        id: 5,
+        img: projectImg5, 
+        link: 'https://lajest.vercel.app/',
+        code:"https://github.com/Amosram/lajest",
+        tools:"MongoDB ExpressJS ReactJS NodeJS Tailwind CSS",
+        description: "lajest, a platform displaying device specs"
+    },
 ]
 
 //service_tx86csq
