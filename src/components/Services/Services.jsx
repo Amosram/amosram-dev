@@ -11,6 +11,7 @@ const Services = () => {
         <motion.h1 className='main-heading'
              initial={{opacity:0, x:-50}}
              whileInView={{opacity:1, x:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -19,6 +20,7 @@ const Services = () => {
         <motion.p
             initial={{opacity:0, x:50}}
             whileInView={{opacity:1, x:0}}
+            viewport={{once:true}}
             transition={{
               duration: 0.8,
               delay: 0.3
@@ -31,6 +33,7 @@ const Services = () => {
           <motion.p
               initial={{opacity:0, y:35}}
               whileInView={{opacity:1, y:0}}
+              viewport={{once:true}}
               transition={{
                 duration: 0.8,
                 delay: 0.3
@@ -39,6 +42,7 @@ const Services = () => {
           <motion.img src={serviceImg} alt=""
               initial={{opacity:0, y:35}}
               whileInView={{opacity:1, y:0}}
+              viewport={{once:true}}
               transition={{
                 duration: 0.8,
                 delay: 0.3
@@ -52,6 +56,7 @@ const Services = () => {
               className='service-items' 
               initial={{opacity:0, y:35}}
               whileInView={{opacity:1, y:0}}
+              viewport={{once:true}}
               transition={{
                 duration: 0.4,
                 delay: 0.3
@@ -60,6 +65,7 @@ const Services = () => {
               <motion.img
                    initial={{opacity:0}}
                    whileInView={{opacity:1}}
+                   viewport={{once:true}}
                    transition={{
                      duration: 0.6,
                      delay: 1

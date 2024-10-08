@@ -40,6 +40,7 @@ const Contact = () => {
         <motion.h1 className='main-heading'
              initial={{opacity:0, x:-50}}
              whileInView={{opacity:1, x:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -48,6 +49,7 @@ const Contact = () => {
         <motion.p
              initial={{opacity:0, x:50}}
              whileInView={{opacity:1, x:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -59,6 +61,7 @@ const Contact = () => {
         <motion.div className='contact-left'
              initial={{opacity:0, y:35}}
              whileInView={{opacity:1, y:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -102,6 +105,7 @@ const Contact = () => {
         <motion.div className='contact-right'
           initial={{opacity:0, y:35}}
           whileInView={{opacity:1, y:0}}
+          viewport={{once:true}}
           transition={{
             duration: 0.8,
             delay: 0.3

@@ -126,7 +126,7 @@ export const projectData = [
         link:'https://amosrama.netlify.app/#portfolio',
         code: 'https://github.com/Amosram/amosrama',
         description: "My previous portfolio",
-        tools: "HTML CSS JavaScript"
+        tools: "HTML, CSS, JavaScript"
     },
     {
         id: 3,
@@ -134,7 +134,7 @@ export const projectData = [
         link: 'https://amosram.github.io/fayaz-site/',
         code: 'https://github.com/Amosram/fayaz-site',
         description:"Fayaz bakery site",
-        tools: "HTML CSS JavaScript"
+        tools: "HTML, CSS, JavaScript"
     },
     {
         id: 2,
@@ -142,14 +142,14 @@ export const projectData = [
         link: 'https://thinksmoothie.netlify.app/',
         code:"https://github.com/Amosram/thinksmoothie",
         description: "Thinksmoothie drinks site",
-        tools: "HTML CSS JavaScript"
+        tools: "HTML, CSS, JavaScript"
     },
     {
         id: 4,
         img: projectImg4, 
         link: 'https://tsaire.vercel.app/',
         code:"https://github.com/Amosram/tsaire",
-        tools:"MongoDB ExpressJS ReactJS NodeJS Tailwind CSS",
+        tools:"MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind CSS",
         description: "Updated version of thinksmoothie drinks site"
     },
     {
@@ -157,7 +157,7 @@ export const projectData = [
         img: projectImg5, 
         link: 'https://lajest.vercel.app/',
         code:"https://github.com/Amosram/lajest",
-        tools:"MongoDB ExpressJS ReactJS NodeJS Tailwind CSS",
+        tools:"ReactJS, NodeJS, Tailwind CSS",
         description: "lajest, a platform displaying device specs"
     },
 ]

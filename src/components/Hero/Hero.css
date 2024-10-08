@@ -41,8 +41,8 @@
     animation: spin 50s linear infinite;
     border-radius: 50%;
     padding: 0;
-    width: 53px;
-    height:53px;
+    width: 56px;
+    height:56px;
 }
 
 @keyframes spin {
@@ -88,8 +88,16 @@
     opacity: .3;
 }
 
+
 /* HERO MEDIA QUERRIES */
-@media (max-width: 835px) {
+@media (min-width: 884px) {
+    .hero-left .earth {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 885px) {
     .hero h1 {
         font-size: 5rem;
     }

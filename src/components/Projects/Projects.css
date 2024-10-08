@@ -81,7 +81,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     background: linear-gradient(rgba(43, 43, 60, 0.3), rgba(43, 43, 60, 0.01));
     backdrop-filter: 10px;
     border-radius: 15px;

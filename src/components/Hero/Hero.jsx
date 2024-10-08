@@ -3,8 +3,6 @@ import './Hero.css'
 import { IoEarth } from "react-icons/io5";
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
-import AIimg from '../../assets/images/ai.png'
-
 
 
 const Hero = () => {

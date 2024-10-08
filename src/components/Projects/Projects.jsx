@@ -19,6 +19,7 @@ const Projects = () => {
         <motion.h1 className='main-heading'
              initial={{opacity:0, x:-50}}
              whileInView={{opacity:1, x:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -27,6 +28,7 @@ const Projects = () => {
         <motion.p
              initial={{opacity:0, x:50}}
              whileInView={{opacity:1, x:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
@@ -37,6 +39,7 @@ const Projects = () => {
       <motion.p className='quote'
            initial={{opacity:0}}
            whileInView={{opacity:1}}
+           viewport={{once:true}}
            transition={{
              duration: 0.8,
              delay: 0.3
@@ -51,11 +54,12 @@ const Projects = () => {
         <motion.div className='projects-content'
              initial={{opacity:0, y:35}}
              whileInView={{opacity:1, y:0}}
+             viewport={{once:true}}
              transition={{
                duration: 0.8,
                delay: 0.3
              }}
-        >
+          >
           {projectData.map((projectDatas) => (
             <div key={projectDatas.id} className='projects-items'>
               <img src={projectDatas.img} alt="Project Images"/>
