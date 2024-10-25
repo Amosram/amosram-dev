@@ -70,35 +70,23 @@ const Hero = () => {
   return (
     <section className='hero flexBox' id='/'>
       <div className='hero-left'>
-        <div className='my-name'>
-          <div className='title-top'>
-            <motion.h1 className='hello'
-              variants={variants}
-              initial='hidden'
-              animate='visible'
-            >HELLO</motion.h1>
-            <IoEarth className='earth'/>
-          </div>
-       
-          <div className='title-middle'>
-            <motion.h1 className='h2'
-              variants={variants}
-              initial='hidden'
-              animate='visible'
-            >I AM  <span> AMOS RAMA</span>
-            </motion.h1>
-          </div>
+        <div className='hero-info'>
+          <motion.h1
+               variants={variants}
+               initial='hidden'
+               animate='visible'
+          >HELLO<span className='emoji'>👋</span> I AM <span className='linear-grad-text'>AMOS RAMA</span> </motion.h1>
+          <motion.h2
+               variants={variants}
+               initial='hidden2'
+               animate='visible2'
+          >AND I AM A <span className='linear-grad-text'>FULL STACK DEVELOPER</span></motion.h2>
+          <motion.p
+               variants={variants}
+               initial='hidden3'
+               animate='visible3'
+          >I craft innovative and responsive websites and turn ideas into interactive digital experiences</motion.p>
         </div>
-        <motion.h3 
-           variants={variants}
-           initial='hidden2'
-           animate='visible2'
-        >And I am a <span>Full Stack Developer</span></motion.h3>
-        <motion.p
-           variants={variants}
-           initial='hidden3'
-           animate='visible3'
-        >I craft innovative and responsive websites and turn ideas into interactive digital experiences</motion.p>
 
         <div className='btns'
         >
@@ -123,3 +111,28 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
+/*
+ <div className='title-middle'>
+            <motion.h2 className='h2'
+              variants={variants}
+              initial='hidden'
+              animate='visible'
+            >I AM
+            </motion.h2>
+            <motion.h1 className='h1'
+              variants={variants}
+              initial='hidden'
+              animate='visible'
+            >AMOS RAMA
+            </motion.h1>
+          </div>
+        </div>
+        <motion.h3 
+           variants={variants}
+           initial='hidden2'
+           animate='visible2'
+        >And I am a <span>Full Stack Developer</span></motion.h3>
+*/
