@@ -139,25 +139,25 @@ export const projectData = [
     {
         id: 2,
         img: projectImg2, 
-        link: 'https://thinksmoothie.netlify.app/',
-        code:"https://github.com/Amosram/thinksmoothie",
-        description: "Thinksmoothie drinks site",
-        tools: "HTML, CSS, JavaScript"
+        link: 'https://freelanx.vercel.app/',
+        code:"https://github.com/Amosram/freelanx",
+        description: "Freelanx, a fullstack platform for finding jobs.",
+        tools: "MongoDB, ExpressJS, ReactJS, NodeJS"
     },
     {
         id: 4,
         img: projectImg4, 
         link: 'https://tsaire.vercel.app/',
         code:"https://github.com/Amosram/tsaire",
-        tools:"MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind CSS",
-        description: "Updated version of thinksmoothie drinks site"
+        tools:"Vite + ReactJS, Tailwind CSS",
+        description: "Thinksmoothie e-commerce site"
     },
     {
         id: 5,
         img: projectImg5, 
         link: 'https://lajest.vercel.app/',
         code:"https://github.com/Amosram/lajest",
-        tools:"ReactJS, NodeJS, Tailwind CSS",
+        tools:"Vite + ReactJS, Tailwind CSS",
         description: "lajest, a platform displaying device specs"
     },
 ]

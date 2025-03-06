@@ -163,17 +163,17 @@
 
 @media (max-width: 589px) {
     .hero h1 {
-        font-size: 2.6rem;
+        font-size: 2.7rem;
         text-align: center; 
     }
 
     .hero h2 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         text-align: center; 
     }
 
     .hero .hero-info h1 .emoji {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
     }
 
 }
@@ -181,16 +181,6 @@
 @media (max-width: 446px) {
     .hero h1 {
         font-size: 2.5rem;
-    }
-
-    .hero h3 {
-        font-size: 2rem;
-    }
-
-    .hero-left .earth {
-        width: 27px;
-        height:27px;
-        margin-bottom: 3px;
     }
 
     .header {
@@ -202,15 +192,11 @@
         flex-direction: column;
     }
 
-    .hero-left .my-name h1 {
-        font-size: 3rem;
-    }
-
 }
 
 @media (max-width: 425px) {
     .hero h1 {
-        font-size: 2.3rem;
+        font-size: 2.6rem;
     }
 
     .hero h3 {
@@ -220,6 +206,10 @@
 
 @media (max-width: 399px) {
     .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero h2 {
         font-size: 2.2rem;
     }
 
